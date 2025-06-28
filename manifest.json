@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Unnamed Pack",
+    "description": "Tung tumg",
+    "uuid": "26ac8f3c-8271-46de-9e67-0ab1df98c431",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "2e4a2745-1dbc-4c0d-a1f5-cf9e32f41da6",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
