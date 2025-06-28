@@ -1,0 +1,40 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        "yami_render:wither_boss_armor": {
+            "+defines": [
+                "USE_MULTITEXTURE"
+            ],
+            "+states": [
+                "DisableAlphaWrite"
+            ],
+            "msaaSupport": "Both",
+            "+samplerStates": [
+                {
+                    "samplerIndex": 0,
+                    "textureWrap": "Clamp"
+                },
+                {
+                    "samplerIndex": 1,
+                    "textureWrap": "Clamp"
+                },
+                {
+                    "samplerIndex": 2,
+                    "textureWrap": "Clamp"
+                }
+            ]
+        },
+        "yami_icon:entity_alphatest": {
+            "+states": [
+                "DisableDepthTest",
+                "DisableDepthWrite",
+                "DisableAlphaWrite"
+            ],
+            "-defines": [
+                "FANCY"
+            ],
+            "depthFunc": "Always",
+            "depthBias": 99999500
+        }
+    }
+}
