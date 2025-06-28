@@ -1,0 +1,95 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.yami_iron_sword": {
+      "geometry": "geometry.yami_idk_icon",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.iron_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    },
+    "controller.render.yami_wooden_sword": {
+      "geometry": "geometry.yami_idk_icon",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.wooden_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    },
+    "controller.render.yami_wooden_sword1": {
+      "geometry": "yami_idk_diamond",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.wooden_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    },
+    "controller.render.yami_iron_sword1": {
+      "geometry": "yami_idk_diamond",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.iron_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    },
+    "controller.render.yami_diamond_sword": {
+      "geometry": "geometry.yami_idk_diamond",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.diamond_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    },
+    "controller.render.yami_diamond_sword1": {
+      "geometry": "geometry.yami_idk_icon",
+      "materials": [
+        {
+          "*": "material.yami_icon"
+        }
+      ],
+      "textures": [
+        "temp.my_first_mm_test = query.distance_from_camera; return Texture.diamond_sword;"
+      ],
+      "is_hurt_color": {},
+      "on_fire_color": {},
+      "filter_lighting": true,
+      "ignore_lighting": true
+    }
+  }
+}
