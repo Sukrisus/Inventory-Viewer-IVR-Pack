@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.yami_idk_icond",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 6,
+				"visible_bounds_offset": [0, 2, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "waist",
+					"parent": "root",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "d2",
+					"parent": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "d22",
+					"parent": "d2",
+					"pivot": [0, 22, 0],
+					"cubes": [
+						{
+							"origin": [-13, 33, 0],
+							"size": [5, 5, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [8, 13], "uv_size": [2, 2]},
+								"south": {"uv": [14, 13], "uv_size": [2, 2]},
+								"west": {"uv": [12, 13], "uv_size": [2, 2]},
+								"up": {"uv": [10, 11], "uv_size": [2, 2]},
+								"down": {"uv": [12, 13], "uv_size": [2, -2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
