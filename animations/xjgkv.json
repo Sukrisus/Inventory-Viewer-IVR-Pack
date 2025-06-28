@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.yami_idk_diamond": {
+			"loop": true,
+			"bones": {
+				"d22": {
+					"rotation": [0, 0, 0],
+					"position": [5, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.yami_idk_icon": {
+			"loop": true,
+			"bones": {
+				"tools": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		}
+	}
+}
